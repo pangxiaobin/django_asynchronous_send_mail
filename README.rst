@@ -37,4 +37,4 @@ Example::
     
 If you want to send HTML email::
 
-    send_mail('Subject here', 'Here is the message.', 'from@example.com', ['to@example.com'], fail_silently=False, html = '<HTML_TEXT_HERE>')
+    send_mail('Subject here', 'Here is the message.', 'from@example.com', ['to@example.com'], fail_silently=False, html_message = '<HTML_TEXT_HERE>')
